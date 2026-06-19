@@ -1,15 +1,3 @@
----
-title: KisanSaathi
-emoji: 🌾
-colorFrom: green
-colorTo: yellow
-sdk: gradio
-sdk_version: 4.44.1
-app_file: app.py
-pinned: false
-license: mit
----
-
 # 🌾 KisanSaathi
 
 **Voice-Based Multilevel Natural Farming Consultant for Indian farmers transitioning to organic/natural farming.**
