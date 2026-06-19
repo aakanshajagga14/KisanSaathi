@@ -46,6 +46,33 @@ python app.py
 
 Open the URL shown in the terminal (typically `http://127.0.0.1:7860`).
 
+---
+
+## Deploy on Render (Live Demo)
+
+1. Push this repo to GitHub: [github.com/aakanshajagga14/KisanSaathi](https://github.com/aakanshajagga14/KisanSaathi)
+2. Sign up / log in at [render.com](https://render.com)
+3. Click **New +** → **Blueprint** (uses `render.yaml` in this repo)  
+   **Or** **New +** → **Web Service** and connect the GitHub repo manually:
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `python app.py`
+   - **Instance type:** Free
+4. Under **Environment**, add:
+   - `GROQ_API_KEY` = your key from [console.groq.com](https://console.groq.com)
+5. Click **Deploy**. Your live URL will look like:
+   `https://kisansaathi.onrender.com`
+
+> Free tier sleeps after ~15 min idle — first load may take 30–60 seconds to wake up.
+
+---
+
+## Prompt Design
+
+**Why strict organic-only guardrails:** Farmers transitioning to natural farming are vulnerable to reverting to chemicals when stressed. The system prompt explicitly bans synthetic pesticides and fertilizers, and whitelists known organic remedies (neem, jeevamrit, panchgavya, etc.) so the LLM stays on-mission.
+
+**Why structured Hindi output format:** Farmers scan advice quickly in the field. Fixed sections (रोग/समस्या, कारण, जैविक उपाय, बचाव, KVK सलाह) make responses predictable and easy to hear via TTS.
+
+**Why under-150-word responses:** Long LLM answers are hard to listen to on a phone speaker in a noisy farm environment. Short, structured answers improve comprehension and reduce TTS latency.
 
 ---
 
