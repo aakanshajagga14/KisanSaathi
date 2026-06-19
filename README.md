@@ -58,32 +58,6 @@ python app.py
 
 Open the URL shown in the terminal (typically `http://127.0.0.1:7860`).
 
----
-
-## Deploy on Hugging Face Spaces (Recommended)
-
-> **Note:** GitHub Pages only hosts static websites (HTML/CSS). KisanSaathi is a Python Gradio app with server-side API calls, so it **cannot** run on GitHub Pages. Use Hugging Face Spaces instead (free).
-
-1. Go to [huggingface.co/new-space](https://huggingface.co/new-space)
-2. Choose **SDK: Gradio**, visibility **Public**
-3. Connect your GitHub repo `aakanshajagga14/KisanSaathi` **or** upload these files
-4. Under **Settings → Repository secrets**, add:
-   - Name: `GROQ_API_KEY`
-   - Value: your Groq API key from [console.groq.com](https://console.groq.com)
-5. Hugging Face auto-builds and deploys. Your live app will be at:
-   `https://huggingface.co/spaces/<your-username>/KisanSaathi`
-
-No code changes needed — `app.py` at the repo root is auto-detected.
-
----
-
-## Prompt Design
-
-**Why strict organic-only guardrails:** Farmers transitioning to natural farming are vulnerable to reverting to chemicals when stressed. The system prompt explicitly bans synthetic pesticides and fertilizers, and whitelists known organic remedies (neem, jeevamrit, panchgavya, etc.) so the LLM stays on-mission.
-
-**Why structured Hindi output format:** Farmers scan advice quickly in the field. Fixed sections (रोग/समस्या, कारण, जैविक उपाय, बचाव, KVK सलाह) make responses predictable and easy to hear via TTS.
-
-**Why under-150-word responses:** Long LLM answers are hard to listen to on a phone speaker in a noisy farm environment. Short, structured answers improve comprehension and reduce TTS latency.
 
 ---
 
