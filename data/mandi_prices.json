@@ -1,0 +1,62 @@
+{
+  "North": {
+    "wheat": {"price_per_quintal": 2200, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "rice": {"price_per_quintal": 1950, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "maize": {"price_per_quintal": 1850, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "tomato": {"price_per_quintal": 3200, "unit": "₹/quintal", "trend": "falling", "updated": "today"},
+    "onion": {"price_per_quintal": 2800, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "potato": {"price_per_quintal": 1500, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "cotton": {"price_per_quintal": 6200, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "soybean": {"price_per_quintal": 4100, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "mustard": {"price_per_quintal": 5400, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "sugarcane": {"price_per_quintal": 350, "unit": "₹/quintal", "trend": "stable", "updated": "today"}
+  },
+  "South": {
+    "wheat": {"price_per_quintal": 2150, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "rice": {"price_per_quintal": 2100, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "maize": {"price_per_quintal": 1780, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "tomato": {"price_per_quintal": 3800, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "onion": {"price_per_quintal": 2400, "unit": "₹/quintal", "trend": "falling", "updated": "today"},
+    "potato": {"price_per_quintal": 1650, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "cotton": {"price_per_quintal": 6050, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "soybean": {"price_per_quintal": 3950, "unit": "₹/quintal", "trend": "falling", "updated": "today"},
+    "mustard": {"price_per_quintal": 5200, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "sugarcane": {"price_per_quintal": 340, "unit": "₹/quintal", "trend": "stable", "updated": "today"}
+  },
+  "East": {
+    "wheat": {"price_per_quintal": 2180, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "rice": {"price_per_quintal": 2250, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "maize": {"price_per_quintal": 1820, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "tomato": {"price_per_quintal": 3500, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "onion": {"price_per_quintal": 2600, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "potato": {"price_per_quintal": 1420, "unit": "₹/quintal", "trend": "falling", "updated": "today"},
+    "cotton": {"price_per_quintal": 6100, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "soybean": {"price_per_quintal": 4000, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "mustard": {"price_per_quintal": 5300, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "sugarcane": {"price_per_quintal": 345, "unit": "₹/quintal", "trend": "stable", "updated": "today"}
+  },
+  "West": {
+    "wheat": {"price_per_quintal": 2220, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "rice": {"price_per_quintal": 2000, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "maize": {"price_per_quintal": 1900, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "tomato": {"price_per_quintal": 4000, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "onion": {"price_per_quintal": 3000, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "potato": {"price_per_quintal": 1580, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "cotton": {"price_per_quintal": 6350, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "soybean": {"price_per_quintal": 4200, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "mustard": {"price_per_quintal": 5500, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "sugarcane": {"price_per_quintal": 355, "unit": "₹/quintal", "trend": "stable", "updated": "today"}
+  },
+  "Central": {
+    "wheat": {"price_per_quintal": 2190, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "rice": {"price_per_quintal": 2050, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "maize": {"price_per_quintal": 1880, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "tomato": {"price_per_quintal": 3400, "unit": "₹/quintal", "trend": "falling", "updated": "today"},
+    "onion": {"price_per_quintal": 2700, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "potato": {"price_per_quintal": 1480, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "cotton": {"price_per_quintal": 6150, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "soybean": {"price_per_quintal": 4050, "unit": "₹/quintal", "trend": "rising", "updated": "today"},
+    "mustard": {"price_per_quintal": 5350, "unit": "₹/quintal", "trend": "stable", "updated": "today"},
+    "sugarcane": {"price_per_quintal": 348, "unit": "₹/quintal", "trend": "stable", "updated": "today"}
+  }
+}
